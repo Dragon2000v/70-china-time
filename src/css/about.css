@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.about-top-side {
+  background-color: var(--cards);
+}
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  margin-bottom: 28px;
+}
+.about-text-wrap {
+  margin-bottom: 40px;
+}
+.about-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.about-text:first-child {
+  margin-bottom: 20px;
+}
+.about-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 160px;
+  height: 48px;
+}
+.about-bottom-side {
+}
+.about-img {
+}
