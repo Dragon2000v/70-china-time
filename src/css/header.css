@@ -1,21 +1,25 @@
-.header {
-  padding: 20px 0;
-}
-
 .nav-list {
+  display: none;
+}
+.social-list {
+  display: none;
+}
+
+.logo {
+  padding: 26px 0;
+}
+
+.burger-menu {
+  border: none;
+  padding: 0;
+  background: transparent;
+
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  width: 40px;
+  height: 40px;
 }
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.burger-icon {
+  stroke:black
 }
