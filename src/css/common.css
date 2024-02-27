@@ -1,6 +1,37 @@
 body {
-  font-family: sans-serif;
-  background: teal;
+  font-family: "Gilroy", sans-serif;
+  background: #fbfbfb;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 65px;
+  }
+
+}
+
+:root {
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+
+  --font-family: "Gilroy", sans-serif;
 }
 
 .visually-hidden {
