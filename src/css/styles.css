@@ -9,6 +9,8 @@
 @import url('./btn.css');
 
 /* Sections import */
+
 @import url('./header.css');
 @import url('./about.css');
+@import url('./catalog.css');
 @import url('./contactus.css');
