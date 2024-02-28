@@ -1,0 +1,29 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(12, 12, 12, 0.92);
+    width: 200px;
+    height: 100%;
+    z-index: 1000;
+    padding: 240px 81px 240px 81px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mobile-menu-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+}
+.close-btn-icon {
+    stroke: rgba(251, 251, 251, 1);
+}
