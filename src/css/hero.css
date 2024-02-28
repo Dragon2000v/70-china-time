@@ -1,9 +1,16 @@
 
 .hero-section {
 padding: 60px 0;
-width: 375px; 
 min-height: 732px;
+width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+.hero-section {
+padding: 80px 0;
+}
+}
+   
 
 .hero-title {
     font-family: "Gilroy", sans-serif;
@@ -106,3 +113,40 @@ background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
 url(./img/hero/hero-mob@1x.png);
 }
 
+@media screen and (max-width:767px ) and (min-resolution: 192dpi) {
+    .hero-img{
+        background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+        url(./img/hero/hero-mob@2x.png);
+    }}
+
+    @media screen and (min-width:768px) {
+        .hero-img {
+         
+            background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./img/hero/hero-tab@1x.png);
+        }}
+    
+    
+    @media screen and (min-width:768px) and (min-resolution: 192dpi) {
+        .hero-img {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./images/hero/people-tabl@2x.jpg);
+        }
+    }
+    
+    @media screen and (min-width:1158px) {
+        .hero-img {
+            padding: 188px 0;
+            background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./img/hero/hero-desc@1x.png)
+        }
+    }
+    
+    
+    @media screen and (min-width:1158px) and (min-resolution: 192dpi){
+        .hero-img {
+            background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./img/hero/hero-desc@2x.png)
+        }
+    }
+    
