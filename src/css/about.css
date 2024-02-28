@@ -1,11 +1,16 @@
-.about {
+.about .container {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+}
+.section{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .about-top-side {
   background-color: var(--cards);
+  border-radius: 30px;
+  padding: 40px 20px;
 }
 .about-title {
   font-weight: 600;
@@ -32,8 +37,10 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  text-align: center;
+  /* text-align: center; */
+  background: var(--accent);
   color: var(--background);
+  border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +48,7 @@
   height: 48px;
 }
 .about-bottom-side {
+  border-radius: 30px;
 }
 .about-img {
 }
