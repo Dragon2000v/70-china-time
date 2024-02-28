@@ -37,7 +37,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  /* text-align: center; */
   background: var(--accent);
   color: var(--background);
   border-radius: 16px;
@@ -46,6 +45,10 @@
   align-items: center;
   max-width: 160px;
   height: 48px;
+  transition: background-color 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.about-link:hover, .about-link:focus{
+  background-color: var(--blue-hover);
 }
 .about-bottom-side {
   border-radius: 30px;
