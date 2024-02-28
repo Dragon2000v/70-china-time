@@ -1,11 +1,15 @@
 /* Mobile styles */
-* {
+.contactus * {
     box-sizing: border-box;
+}
+
+.contactus {
+    padding: 0 20px;
 }
 
 .contactus-container { 
     margin: 30px auto 30px;
-    padding: 0 20px;
+
 }
 
 .contactus-title {
@@ -146,7 +150,7 @@
     }
 
     .contactus-block {
-        max-width: 580px;
+        max-width: 600px;
         height: 560px;
         padding: 48px 60px;
     }
