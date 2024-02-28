@@ -32,6 +32,7 @@
 }
 @media only screen and (min-width: 768px) {
   .about .container{
+    max-width: 768px;
     gap: 40px;
   }
   .about-text {
@@ -51,6 +52,7 @@
 @media only screen and (min-width: 1280px) {
   .about .container{
     flex-direction: row;
+    max-width: 1280px;
   }
   .about-top-side{
     max-width: 580px;
