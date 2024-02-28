@@ -1,5 +1,5 @@
 body {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   background: #fbfbfb;
 }
 
@@ -10,19 +10,18 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
     padding: 0 32px;
   }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
     padding: 0 65px;
   }
-
 }
 
 :root {
@@ -31,7 +30,7 @@ body {
   --background: #fbfbfb;
   --cards: #f3f3f3;
 
-  --font-family: "Gilroy", sans-serif;
+  --font-family: 'Gilroy', sans-serif;
 }
 
 .visually-hidden {
