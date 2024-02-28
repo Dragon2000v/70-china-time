@@ -1,12 +1,11 @@
 
-.container {
+/*.container {
   min-width: 320px;
   max-width: 375;
   padding: 0 20px;
   
   /*outline: 2px solid red;
-    outline-offset: -2px;*/
-}
+    outline-offset: -2px; } */
 .page-header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   background-color: rgba(251, 251, 251, 1);
