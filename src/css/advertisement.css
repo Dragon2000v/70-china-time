@@ -1,24 +1,79 @@
-.advertisement {
+.advertisement.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .advertisement .section {
-  border-radius: 30px;
   padding: 60px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 28px;
+
+  border-radius: 30px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  background-image: url('../img/advertisement/adv-bg-mob@1x.png'),
+  background-image: url('../img/advertisement/bg-mob@1x.png'),
     linear-gradient(var(--main), var(--main));
 }
-
-
+@media only screen and (max-width: 767.98px) and (min-resolution: 192dpi) {
+  .advertisement .section {
+    background-image: url('../img/advertisement/bg-mob@2x.png'),
+      linear-gradient(var(--main), var(--main));
+  }
+}
+@media only screen and (min-width: 768px) {
+  .advertisement.container {
+    max-width: 768px;
+  }
+  .advertisement .section {
+    padding: 80px 64px;
+    gap: 32px;
+    background-image: url('../img/advertisement/bg-tab@1x.png'),
+      linear-gradient(var(--main), var(--main));
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .advertisement .section {
+    background-image: url('../img/advertisement/bg-tab@2x.png');
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .advertisement.container {
+    max-width: 1280px;
+  }
+  .advertisement .section {
+    padding: 83px 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url('../img/advertisement/bg-desk@1x.png'),
+      linear-gradient(var(--main), var(--main));
+  }
+}
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .advertisement .section {
+    background-image: url('../img/advertisement/bg-desk@2x.png'),
+      linear-gradient(var(--main), var(--main));
+  }
+}
 .advertisement-caption {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--background);
-  margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .advertisement-caption {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .advertisement-caption {
+    max-width: 690px;
+  }
 }
 .advertisement-accent {
   color: rgba(251, 251, 251, 0.5);
@@ -33,6 +88,12 @@
   align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  max-width: 160px;
+  min-width: 160px;
   height: 48px;
+  transition: color 300ms cubic-bezier(0.165, 0.84, 0.44, 1), background-color 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.advertisement-link:hover, .advertisement-link:focus{
+  color: var(--main);
+  background-color: var(--background);
 }
