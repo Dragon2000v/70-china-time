@@ -22,6 +22,12 @@
 
 .logo {
   padding: 20px 0;
+
+  color: #0C0C0C;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+    letter-spacing: -0.32px;
 }
 
 .burger-menu {
@@ -117,5 +123,13 @@
       background-color: rgba(51, 80, 233, 1);
       left: 40%;
       bottom: -10px;
+    }
+    .nav-item {
+      color: #0C0C0C;
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
     }
 } 
