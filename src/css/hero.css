@@ -1,29 +1,16 @@
-.container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-@media screen and (min-width: 768px)
- { .container {
-    width: 768px;
-    padding: 0 32px;
-
-}
-}
-
-@media screen and (min-width: 1280px){
-.container {
-    width: 1280px;
-    padding: 0 65px;
-}}
-
 
 .hero-section {
-    padding: 60px 0;
-width: 375px; 
+padding: 60px 0;
 min-height: 732px;
+width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+.hero-section {
+padding: 80px 0;
+}
+}
+   
 
 .hero-title {
     font-family: "Gilroy", sans-serif;
@@ -33,7 +20,7 @@ line-height: 0.95;
 letter-spacing: -0.02em;
 color: #0c0c0c;
 width: 335px;
-padding-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .hero-title-span {
@@ -46,7 +33,7 @@ line-height: 1.28571;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
 width: 335px;
-padding-bottom: 28px;
+margin-bottom: 28px;
 }
 .hero-scroll {
     display: flex;
@@ -123,6 +110,43 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-url(../img/hero/hero-mob@1x.jpg);
+url(./img/hero/hero-mob@1x.png);
 }
 
+@media screen and (max-width:767px ) and (min-resolution: 192dpi) {
+    .hero-img{
+        background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+        url(./img/hero/hero-mob@2x.png);
+    }}
+
+    @media screen and (min-width:768px) {
+        .hero-img {
+         
+            background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./img/hero/hero-tab@1x.png);
+        }}
+    
+    
+    @media screen and (min-width:768px) and (min-resolution: 192dpi) {
+        .hero-img {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./images/hero/people-tabl@2x.jpg);
+        }
+    }
+    
+    @media screen and (min-width:1158px) {
+        .hero-img {
+            padding: 188px 0;
+            background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./img/hero/hero-desc@1x.png)
+        }
+    }
+    
+    
+    @media screen and (min-width:1158px) and (min-resolution: 192dpi){
+        .hero-img {
+            background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+            url(./img/hero/hero-desc@2x.png)
+        }
+    }
+    
