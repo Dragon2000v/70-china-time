@@ -3,13 +3,10 @@
     box-sizing: border-box;
 }
 
-
-
 .contactus-container { 
     margin: 30px auto 30px;
     padding: 0 20px;
 }
-
 
 .contactus-title {
     font-family: "Gilroy", sans-serif;
@@ -52,8 +49,8 @@
     flex-direction: column;
     align-content: center;
     gap: 18px;
-
 }
+
 .contactus-field input {
     background: #f3f3f3;
     width: 100%;
@@ -63,12 +60,12 @@
     padding: 12px 14px 12px;
     box-sizing: border-box;
 }
+
 .contactus-texterea {
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     width: 100%;
     height: 84px;
-    margin-bottom: 28px;
     background: #f3f3f3;
     font-weight: 400;
     font-size: 14px;
@@ -93,7 +90,7 @@
     height: 42px;
     background-color: #3350e9;
     border: none;
-    margin: 0 auto;
+    margin: 10px auto 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.3;
@@ -107,7 +104,7 @@
 }
 
 .contactus-img {
-
+    max-width: 335px;
 }
 
 
@@ -115,6 +112,25 @@
 @media screen and (min-width: 768px) {
     .contactus-block {
         max-width: 704px;
+        padding: 50px 122px;
+        border-radius: 50px;
+    }
+
+    .contactus-text {
+        font-size: 16px;
+    }
+
+    .contactus-img {
+        max-width: 704px;
+    }
+    
+    .button-contactus {
+        margin: 14px 0 0;
+    }
+
+    
+    .contactus-texterea {
+        height: 90px;
     }
 }
 
@@ -122,5 +138,22 @@
 @media screen and (min-width: 1280px) {
     .contactus-content {
         flex-direction: row;
+    }
+
+    .contactus-block {
+        max-width: 580px;
+        height: 560px;
+        padding: 48px 60px;
+    }
+
+    .contactus-container { 
+        max-width: 1150px;
+    }
+
+    
+
+    .contactus-img {
+        max-width: none;
+        width: 530px;
     }
 }
