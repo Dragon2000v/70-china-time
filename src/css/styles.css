@@ -4,8 +4,8 @@
   | default @import url()
   |============================
 */
-@import url('./common.css');
 @import url('./reset.css');
+@import url('./common.css');
 @import url('./btn.css');
 
 /* Sections import */
@@ -16,3 +16,4 @@
 @import url('./catalog.css');
 @import url('./contactus.css');
 @import url('./header.css');
+@import url('./sale.css');

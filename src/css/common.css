@@ -1,8 +1,26 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+:root {
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+  --blue-hover: #1f3cd4;
+  --about-text: rgba(12, 12, 12, 0.7);
+  --font-family: 'Gilroy', sans-serif;
+}
 body {
   font-family: 'Gilroy', sans-serif;
   background: #fbfbfb;
 }
-
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -12,27 +30,17 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 65px;
   }
 }
-
-:root {
-  --main: #0c0c0c;
-  --accent: #3350e9;
-  --background: #fbfbfb;
-  --cards: #f3f3f3;
-
-  --font-family: 'Gilroy', sans-serif;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
