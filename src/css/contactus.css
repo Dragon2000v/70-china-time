@@ -1,4 +1,22 @@
 /* Mobile styles */
+.contactus {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 24px;
+}
+.contactus-container
+.contactus-title
+.contactus-block
+.contactus-text
+.contactus-check
+.contactus-field
+.contactus-texterea
+.button-contactus
+.img-contactus
+{}
+
 
 
 /* Tab styles */
