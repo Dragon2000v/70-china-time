@@ -80,7 +80,7 @@ padding-bottom: 28px;
     stroke: #fbfbfb;
 position: absolute;
 z-index: 1;
-transform: translateX(68%) translateY(0);
+transform: translateX(73%) translateY(0);
 
 }
 .hero-people-img-3 {
@@ -88,7 +88,7 @@ transform: translateX(68%) translateY(0);
     stroke-width: 2px;
     stroke: #fbfbfb;
 z-index: 2;
-transform: translateX(132%);
+transform: translateX(146%) translateY(0);
 
 }
 
@@ -122,7 +122,7 @@ margin: 0 auto;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(12, 12, 12, 0.2)),
-url(./img/hero/hero-mob@1x.jpg);
+background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
+url(../img/hero/hero-mob@1x.jpg);
 }
 
