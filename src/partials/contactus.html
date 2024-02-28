@@ -1,4 +1,4 @@
-<section class="contactus">
+<section class="contactus" id="contact">
     <div class="contactus-container">
         <h2 class="contactus-title">Contact Us</h2>
         <div class="contactus-content">
@@ -8,13 +8,13 @@
                 </p>
                 <form class="contactus-check" action="#" method="post">
                     <div class="contactus-field">
-                       <input type="text" placeholder="Name" id="name" name="name">
+                       <input type="text" placeholder="Name" id="name" name="name"  pattern="[a-z]">
                     </div>
                     <div class="contactus-field">
-                        <input type="email" placeholder="Email" id="email" name="email">
+                        <input type="email" placeholder="Email" id="email" name="email" pattern="[a-z0-9.%+-]+@[a-z0-9.%+-]+\.[a-z]{2,}$">
                      </div>
                      <div class="contactus-field">
-                        <input type="phone" placeholder="+380" id="phone" name="phone">
+                        <input type="tel" placeholder="+380" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}">
                      </div>
                      <div class="contactus-field">
                         <textarea class="contactus-texterea" placeholder="Comment" type="submit"></textarea>
