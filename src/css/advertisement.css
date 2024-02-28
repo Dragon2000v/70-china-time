@@ -1,0 +1,38 @@
+.advertisement {
+}
+.advertisement .section {
+  border-radius: 30px;
+  padding: 60px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url('../img/advertisement/adv-bg-mob@1x.png'),
+    linear-gradient(var(--main), var(--main));
+}
+
+
+.advertisement-caption {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  margin-bottom: 28px;
+}
+.advertisement-accent {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  max-width: 160px;
+  height: 48px;
+}
