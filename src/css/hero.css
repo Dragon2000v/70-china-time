@@ -2,15 +2,33 @@
 .hero-section {
 padding: 60px 0;
 min-height: 732px;
-width: 100%;
+min-width: 320px;
 }
+
 
 @media screen and (min-width: 768px) {
 .hero-section {
 padding: 80px 0;
 }
 }
+
+
+
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
    
+@media screen and (min-width: 768px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+    }
+    }
+
 
 .hero-title {
     font-family: "Gilroy", sans-serif;
@@ -19,9 +37,28 @@ font-size: 40px;
 line-height: 0.95;
 letter-spacing: -0.02em;
 color: #0c0c0c;
-width: 335px;
 margin-bottom: 20px;
+min-width: 320px;
 }
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+font-size: 70px;
+line-height: 0.85714;
+min-width: 557px;
+
+    }
+}
+
+@media screen and (min-width: 1280px){
+
+   .hero-title {
+font-size: 72px;
+line-height: 0.875;
+min-width: 597px;
+   } 
+}
+
 
 .hero-title-span {
     color: #3350e9;
@@ -32,19 +69,24 @@ font-size: 14px;
 line-height: 1.28571;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
-width: 335px;
 margin-bottom: 28px;
+max-width: 320px;
 }
 .hero-scroll {
     display: flex;
     flex-direction: row;
-    width: 335px;
 min-height: 44px;
-justify-content: space-between;
 align-items: baseline;
-padding-bottom: 28px;
-
+padding: 28px 0;
+justify-content: space-between;
 }
+
+@media screen and (min-width: 768px) {
+    .hero-scroll {
+        display: flex;
+        flex-direction: column;
+     
+}}
 
 .hero-people {
     display: flex;
@@ -91,8 +133,10 @@ transform: translateX(146%) translateY(0);
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
+   
     color: #0c0c0c;
 transition: color ;
+
 }
 
 .scroll-link:hover,
