@@ -62,17 +62,40 @@ padding-bottom: 28px;
 .hero-people {
     display: flex;
     flex-direction: row;
-    
+    position: relative;
+}
+
+
+.hero-people-img-1 {
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+.hero-people-img-2 {
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+position: absolute;
+z-index: 1;
+transform: translateX(68%) translateY(0);
+
+}
+.hero-people-img-3 {
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+z-index: 2;
+transform: translateX(132%);
+
 }
 
 .hero-link {
 }
-.hero-people-img {
-    border-radius: 100%;
-stroke-width: 2px;
-stroke: #fbfbfb;
-  
-}
+
+
 .scroll-link {
 
     font-weight: 500;
@@ -102,3 +125,4 @@ background-size: cover;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(12, 12, 12, 0.2)),
 url(./img/hero/hero-mob@1x.jpg);
 }
+
