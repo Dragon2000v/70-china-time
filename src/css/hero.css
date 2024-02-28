@@ -103,6 +103,6 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-url(../img/hero/hero-mob@1x.jpg);
+url(./img/hero/hero-mob@1x.png);
 }
 
