@@ -13,8 +13,8 @@
   --font-family: 'Gilroy', sans-serif;
 }
 body {
-  font-family: 'Gilroy', sans-serif;
-  background: #fbfbfb;
+  font-family: var(--font-family);
+  background: var(--background);
 }
 img{
   display: block;
