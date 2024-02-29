@@ -10,7 +10,6 @@
     margin-bottom: 92px;
 }
 
-.footer-container-social {}
 
 .footer-logo {
     font-weight: 500;
@@ -26,9 +25,6 @@
     gap: 10px;
 }
 
-.footer-social-list-item {}
-
-.footer-social-list-link {}
 
 .footer-social-list-svg {
     fill: var(--background);
