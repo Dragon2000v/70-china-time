@@ -1,9 +1,6 @@
 
 .hero-section {
 padding: 60px 0;
-min-height: 732px;
-min-width: 320px;
-
 }
 
 
@@ -97,32 +94,44 @@ width: 480px;
     }
 }
 
-
-
-.hero-scroll {
+.hero-right {
     display: flex;
     flex-direction: row;
 min-height: 44px;
-align-items: baseline;
+align-items: flex-end;
 padding: 28px 0;
 justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-scroll {
+    .hero-right {
         display: flex;
         flex-direction: column;
         padding: 0;
      
 }}
 
-.hero-people {
+.hero-people-list {
     display: flex;
     flex-direction: row;
-    position: relative;
+    /* position: relative; */
 }
 
+.hero-people-img {
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+    /* position: absolute; */
+    top: 0;
+    left: 0; 
+}
 
+.hero-people-list .hero-people-img:not(:first-child) {
+     margin-left: -12px;
+  }
+
+
+/* 
 .hero-people-img-1 {
     border-radius: 100%;
     stroke-width: 2px;
@@ -147,10 +156,7 @@ transform: translateX(73%) translateY(0);
 z-index: 2;
 transform: translateX(146%) translateY(0);
 
-}
-
-.hero-link {
-}
+} */
 
 
 .scroll-link {
@@ -161,7 +167,6 @@ transform: translateX(146%) translateY(0);
     letter-spacing: -0.02em;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-   
     color: #0c0c0c;
 transition: color ;
 
@@ -178,11 +183,12 @@ color: #3350e9;
 .hero-img {
 border-radius: 30px;
 margin: 0 auto;
-background-repeat: no-repeat;
+/* background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+background-color: inherit;
 background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-url(./img/hero/hero-mob@1x.png);
+url(./img/hero/hero-mob@1x.png); */
 }
 
 @media screen and (max-width:767px ) and (min-resolution: 192dpi) {
@@ -193,7 +199,7 @@ url(./img/hero/hero-mob@1x.png);
 
     @media screen and (min-width:768px) {
         .hero-img {
-         
+            margin-top: 28px;
             background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
             url(./img/hero/hero-tab@1x.png);
         }}
