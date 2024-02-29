@@ -8,8 +8,7 @@ padding-bottom: 30px;
 .hero-section {
     padding-top: 80px;
     padding-bottom: 40px;
-}
-}
+}}
 
 
 @media screen and (min-width: 1280px) {
@@ -31,15 +30,12 @@ padding-bottom: 30px;
         flex-direction: row;
         gap: 11px;
         justify-content: space-between;
-    }
-    }
+    }}
 
     @media screen and (min-width: 1280px) {
         .hero-container {
             gap: 407px;
-        }
-        }
-      
+        }}      
 
 .hero-title {
     font-family: "Gilroy", sans-serif;
@@ -56,8 +52,7 @@ margin-bottom: 20px;
 font-size: 70px;
 line-height: 0.85714;
 width: 557px;
-
-    }
+}
 }
 
 @media screen and (min-width: 1280px){
@@ -66,7 +61,7 @@ width: 557px;
 font-size: 72px;
 line-height: 0.875;
 width: 597px;
-   } 
+} 
 }
 
 
@@ -88,7 +83,7 @@ line-height: 1.25;
 font-size: 16px;
 line-height: 1.25;
 width: 480px;
-    }
+}
 }
 
 .hero-right {
@@ -104,15 +99,12 @@ margin-top: 28px;
     .hero-right {
         display: flex;
         flex-direction: column;
-        margin-top: 0
-    
-     
+        margin-top: 0   
 }}
 
 .hero-people-list {
     display: flex;
     flex-direction: row;
-
 }
 
 .hero-people-img {
@@ -126,7 +118,6 @@ margin-top: 28px;
 .hero-people-list .hero-people-img:not(:first-child) {
      margin-left: -12px;
   }
-
 
 .scroll-link {
 
@@ -151,4 +142,5 @@ color: #3350e9;
 
 .hero-img {
     margin-top: 28px;
-border-radius: 30px;}
+border-radius: 30px;
+}
