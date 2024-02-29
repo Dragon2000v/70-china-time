@@ -84,18 +84,18 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  margin: 28px 0 8px;
+  color: #0c0c0c;
 
-  height: 18px;
-  overflow-y: scroll;
-  /* text-overflow: ellipsis; */
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media screen and (min-width: 768px) {
   .third-lvl-title {
     font-size: 20px;
     line-height: 1;
-    margin: 20px 0 8px;
   }
 }
 
@@ -108,19 +108,22 @@
 }
 
 .catalog-btn {
-  border-radius: 16px;
+  margin: 0 auto;
+  border: 0;
+  display: block;
+  cursor: pointer;
   width: 160px;
   height: 48px;
+  border-radius: 16px;
+
   background: #3350e9;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
   text-align: center;
   color: #fbfbfb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 40px auto 0;
+  margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
