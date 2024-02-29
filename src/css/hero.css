@@ -1,20 +1,19 @@
-
 .hero-section {
-padding: 60px 0;
+padding-top: 60px;
+padding-bottom: 30px;
 }
 
 
 @media screen and (min-width: 768px) {
 .hero-section {
-padding: 80px 0;
-
-}
-}
+    padding-top: 80px;
+    padding-bottom: 40px;
+}}
 
 
 @media screen and (min-width: 1280px) {
     .hero-section {
-    padding: 80px 0;
+        padding-bottom: 50px;
     }}
 
 
@@ -30,19 +29,13 @@ padding: 80px 0;
         display: flex;
         flex-direction: row;
         gap: 11px;
-        width: 768;
-    }
-    }
+        justify-content: space-between;
+    }}
 
     @media screen and (min-width: 1280px) {
         .hero-container {
-            display: flex;
-            flex-direction: row;
             gap: 407px;
-            width: 1280px;
-        }
-        }
-      
+        }}      
 
 .hero-title {
     font-family: "Gilroy", sans-serif;
@@ -59,8 +52,7 @@ margin-bottom: 20px;
 font-size: 70px;
 line-height: 0.85714;
 width: 557px;
-
-    }
+}
 }
 
 @media screen and (min-width: 1280px){
@@ -69,7 +61,7 @@ width: 557px;
 font-size: 72px;
 line-height: 0.875;
 width: 597px;
-   } 
+} 
 }
 
 
@@ -91,7 +83,7 @@ line-height: 1.25;
 font-size: 16px;
 line-height: 1.25;
 width: 480px;
-    }
+}
 }
 
 .hero-right {
@@ -99,29 +91,26 @@ width: 480px;
     flex-direction: row;
 min-height: 44px;
 align-items: flex-end;
-padding: 28px 0;
 justify-content: space-between;
+margin-top: 28px;
 }
 
 @media screen and (min-width: 768px) {
     .hero-right {
         display: flex;
         flex-direction: column;
-        padding: 0;
-     
+        margin-top: 0   
 }}
 
 .hero-people-list {
     display: flex;
     flex-direction: row;
-    /* position: relative; */
 }
 
 .hero-people-img {
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
-    /* position: absolute; */
     top: 0;
     left: 0; 
 }
@@ -129,35 +118,6 @@ justify-content: space-between;
 .hero-people-list .hero-people-img:not(:first-child) {
      margin-left: -12px;
   }
-
-
-/* 
-.hero-people-img-1 {
-    border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
-    position: absolute;
-    top: 0;
-    left: 0; 
-}
-.hero-people-img-2 {
-    border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
-position: absolute;
-z-index: 1;
-transform: translateX(73%) translateY(0);
-
-}
-.hero-people-img-3 {
-    border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
-z-index: 2;
-transform: translateX(146%) translateY(0);
-
-} */
-
 
 .scroll-link {
 
@@ -168,8 +128,7 @@ transform: translateX(146%) translateY(0);
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
-transition: color ;
-
+transition: color  300ms cubic-bezier(0.165, 0.84, 0.44, 1) ;
 }
 
 .scroll-link:hover,
@@ -180,51 +139,8 @@ color: #3350e9;
 .scroll-link:active {
     color: #3350e9; 
 }
+
 .hero-img {
+    margin-top: 28px;
 border-radius: 30px;
-margin: 0 auto;
-/* background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: inherit;
-background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-url(./img/hero/hero-mob@1x.png); */
 }
-
-@media screen and (max-width:767px ) and (min-resolution: 192dpi) {
-    .hero-img{
-        background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-        url(./img/hero/hero-mob@2x.png);
-    }}
-
-    @media screen and (min-width:768px) {
-        .hero-img {
-            margin-top: 28px;
-            background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-            url(./img/hero/hero-tab@1x.png);
-        }}
-    
-    
-    @media screen and (min-width:768px) and (min-resolution: 192dpi) {
-        .hero-img {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-            url(./images/hero/people-tabl@2x.jpg);
-        }
-    }
-    
-    @media screen and (min-width:1158px) {
-        .hero-img {
-            padding: 188px 0;
-            background-image: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-            url(./img/hero/hero-desc@1x.png)
-        }
-    }
-    
-    
-    @media screen and (min-width:1158px) and (min-resolution: 192dpi){
-        .hero-img {
-            background-image:  linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2)),
-            url(./img/hero/hero-desc@2x.png)
-        }
-    }
-    
