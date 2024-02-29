@@ -1,37 +1,83 @@
 <section class="contactus" id="contact">
-    <div class="contactus-container">
-        <h2 class="contactus-title">Contact Us</h2>
-        <div class="contactus-content">
-            <div class="contactus-block">
-                <p class="contactus-text">
-                    Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.
-                </p>
-                <form class="contactus-check" action="#" method="post">
-                    <div class="contactus-field">
-                       <input type="text" placeholder="Name" id="name" name="name"  pattern="[a-z]">
-                    </div>
-                    <div class="contactus-field">
-                        <input type="email" placeholder="Email" id="email" name="email" pattern="[a-z0-9.%+-]+@[a-z0-9.%+-]+\.[a-z]{2,}$">
-                     </div>
-                     <div class="contactus-field">
-                        <input type="tel" placeholder="+380" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}">
-                     </div>
-                     <div class="contactus-field">
-                        <textarea class="contactus-texterea" placeholder="Comment" type="submit"></textarea>
-                     </div>
-                     <div class="contactus-field">
-                        <button class="button-contactus" type="submit">Send</button>
-                    </div>
-                </form>
-            </div>
-            <div class="img-contactus">
-                <picture>
-                    <source srcset="./img/contact/contact-desc@1x.png, ./img/contact/contact-desc@2x.png 2x" media="(min-width: 1158px)"/>
-                    <source srcset="./img/contact/contact-tab@1x.png, ./img/contact/contact-tab@2x.png 2x" media="(min-width: 768px)"/>
-                    <source srcset="./img/contact/contact-mob@1x.png, ./img/contact/contact-mob@2x.png 2x"  media="(min-width: 320px)"/>
-                    <img class="contactus-img" src="./img/contact/contact-mob@1x.png" srcset="./img/contact/contact-mob@2x.png 2x" alt="watch" />
-                </picture>
-            </div>
-        </div>
+  <div class="contactus-container">
+    <h2 class="contactus-title">Contact Us</h2>
+    <div class="contactus-content">
+      <div class="contactus-block">
+        <p class="contactus-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contactus-check" name="">
+          <div class="contactus-field">
+            <input
+              type="text"
+              placeholder="Name"
+              id="name"
+              name="name"
+              pattern="[a-zA-Z]"
+            />
+          </div>
+          <div class="contactus-field">
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              name="email"
+              pattern="[a-z0-9.%+-]+@[a-z0-9.%+-]+\.[a-z]{2,}$"
+            />
+          </div>
+          <div class="contactus-field">
+            <input
+              type="tel"
+              placeholder="+380"
+              id="tel"
+              name="tel"
+              pattern="[0-9]{3}-[0-9]{3}"
+            />
+          </div>
+          <div class="contactus-field">
+            <textarea
+              class="contactus-texterea"
+              placeholder="Comment"
+              type="submit"
+              name=""
+            ></textarea>
+          </div>
+          <div class="contactus-field">
+            <button class="button-contactus" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="img-contactus">
+        <picture>
+          <source
+            srcset="
+              ./img/contact/contact-desc@1x.png 1x,
+              ./img/contact/contact-desc@2x.png 2x
+            "
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="
+              ./img/contact/contact-tab@1x.png 1x,
+              ./img/contact/contact-tab@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/contact/contact-mob@1x.png 1x,
+              ./img/contact/contact-mob@2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="contactus-img"
+            src="./img/contact/contact-mob@1x.png"
+            alt="watch"
+          />
+        </picture>
+      </div>
     </div>
+  </div>
 </section>
