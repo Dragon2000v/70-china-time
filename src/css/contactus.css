@@ -1,16 +1,16 @@
 /* Mobile styles */
-.contactus * {
+.contactus-section * {
     box-sizing: border-box;
 }
 
-.contactus {
+.contactus-section {
     padding: 0 20px;
     margin: 30px 0 30px;
 }
 
 .contactus-container { 
     margin: 30px auto 30px;
-
+    max-width: 335px;
 }
 
 .contactus-header {
@@ -114,12 +114,16 @@
 
 /* Tab styles */
 @media screen and (min-width: 768px) {
-    .contactus {
+    .contactus-section {
         padding: 0 32px;
+    }
+
+    .contactus-container {
+        max-width: 704px;
     }
     
     .contactus-block {
-        max-width: 704px;
+
         padding: 50px 122px;
         border-radius: 50px;
     }
@@ -145,15 +149,19 @@
         height: 90px;
     }
     
-.contactus-header {
-    font-size: 48px;
-}
+    .contactus-header {
+        font-size: 48px;
+    }
 }
 
 /* Dektop styles */
 @media screen and (min-width: 1280px) {
-    .contactus {
+    .contactus-section {
         padding: 0 65px;
+    }
+
+    .contactus-container { 
+        max-width: 1150px;
     }
     
     .contactus-content {
@@ -165,12 +173,6 @@
         height: 560px;
         padding: 48px 60px;
     }
-
-    .contactus-container { 
-        max-width: 1150px;
-    }
-
-    
 
     .contactus-img {
         max-width: none;

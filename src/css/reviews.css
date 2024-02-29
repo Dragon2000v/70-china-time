@@ -8,8 +8,8 @@
     margin: 30px 0 30px;
 }
 
-.reviews {
-    max-width: 1280px;
+.reviews-container {
+    max-width: 335px;
     margin: 0 auto;
 }
 
@@ -21,9 +21,6 @@
     color: var(--main);  
 }
 
-.reviews-time {
-    
-}
 
 
 .review-list {
@@ -42,13 +39,11 @@
     border-radius: 30px;
     display: none;
 }
+
 .review-item:nth-child(1) {
     display: block;
 }
 
-.reviews-photo {
-
-}
 
 .time-img {
     width: 56px;
@@ -84,7 +79,7 @@
         padding: 0 32px;
     }
 
-    .review-list {
+    .reviews-container {
         max-width: 704px;
     }
 
@@ -117,7 +112,7 @@
         padding: 0 65px;
     }
 
-    .review-list {
+    .reviews-container {
         max-width: 1150px;
     }
 
