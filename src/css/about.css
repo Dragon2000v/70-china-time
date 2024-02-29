@@ -31,8 +31,11 @@
   color: var(--about-text);
 }
 @media only screen and (min-width: 768px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .about .container{
-    max-width: 768px;
     gap: 40px;
   }
   .about-text {
@@ -50,9 +53,12 @@
   }
 }
 @media only screen and (min-width: 1280px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .about .container{
     flex-direction: row;
-    max-width: 1280px;
   }
   .about-top-side{
     max-width: 580px;
@@ -87,6 +93,4 @@
 }
 .about-bottom-side {
   border-radius: 30px;
-}
-.about-img {
 }
