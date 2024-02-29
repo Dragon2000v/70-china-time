@@ -25,7 +25,8 @@
 }
 @media only screen and (min-width: 768px) {
   .advertisement.container {
-    max-width: 768px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .advertisement .section {
     padding: 80px 64px;
@@ -36,12 +37,14 @@
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .advertisement .section {
-    background-image: url('../img/advertisement/bg-tab@2x.png');
+    background-image: url('../img/advertisement/bg-tab@2x.png'),
+    linear-gradient(var(--main), var(--main));;
   }
 }
 @media only screen and (min-width: 1280px) {
   .advertisement.container {
-    max-width: 1280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .advertisement .section {
     padding: 83px 80px;
