@@ -148,7 +148,7 @@
 
 .sale-info-block {
   border-radius: 30px;
-  max-width: 100%;
+  width: 335px;
   height: 561px;
   background: var(--accent);
   padding: 48px 28px;
@@ -157,7 +157,7 @@
 @media screen and (min-width: 768px) {
   .sale-info-block {
     border-radius: 50px;
-    max-width: 704px;
+    width: 704px;
     height: 518px;
     padding: 60px;
   }
