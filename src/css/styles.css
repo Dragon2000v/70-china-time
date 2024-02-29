@@ -4,9 +4,19 @@
   | default @import url()
   |============================
 */
-@import url('./common.css');
 @import url('./reset.css');
+@import url('./common.css');
 @import url('./btn.css');
 
 /* Sections import */
+
+/* @import url('./header.css'); */
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./catalog.css');
+@import url('./reviews.css');
+@import url('./advertisement.css');
+@import url('./contactus.css');
 @import url('./header.css');
+@import url('./sale.css');
+@import url('./burger-menu.css');

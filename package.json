@@ -1,5 +1,5 @@
 {
-  "name": "bc-70-proj",
+  "name": "70-china-time",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/bc-70-proj/",
+    "build": "vite build --base=/70-china-time/",
     "preview": "vite preview"
   },
   "devDependencies": {
