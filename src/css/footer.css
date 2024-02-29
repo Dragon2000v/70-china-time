@@ -1,0 +1,146 @@
+.footer {
+    border-radius: 30px;
+    padding: 40px 28px 28px 28px;
+    background: #0c0c0c;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    margin-bottom: 92px;
+}
+
+.footer-container-social {}
+
+.footer-logo {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: var(--background);
+}
+
+.footer-social-list {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 34px;
+    gap: 10px;
+}
+
+.footer-social-list-item {}
+
+.footer-social-list-link {}
+
+.footer-social-list-svg {
+    fill: var(--background);
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+}
+
+.footer-address {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    width: 152px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.footer-address-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: var(--background);
+    text-align: center;
+    display: block;
+
+}
+
+.footer-slogon {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--background);
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.footer-menu-list {
+    width: 147px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-menu-item {
+    display: block;
+
+}
+
+.footer-menu-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--background);
+    display: block;
+}
+
+.footer-menu-address {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: var(--background);
+    width: 83px;
+}
+
+.footer-menu::after {
+    content: "";
+    width: 279px;
+    height: 2px;
+    background: rgba(251, 251, 251, 0.1);
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.footer-container-last {
+    margin-top: 24px;
+}
+
+.footer-container-last-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 8px;
+}
+
+.footer-container-last-list {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-container-last-item {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    text-align: right;
+    color: rgba(251, 251, 251, 0.5);
+}
