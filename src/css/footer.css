@@ -8,16 +8,52 @@
     margin-right: 20px;
 }
 
+@media screen and (min-width:768px) {
+    .footer {
+        margin: 40px 32px 32px 32px;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer {
+        margin: 50px 75px 32px 75px;
+    }
+}
+
 .footer-container {
     margin-bottom: 92px;
 }
 
+@media screen and (min-width:768px) {
+    .footer-container {
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer-container {
+        margin-bottom: 126px;
+
+    }
+}
 
 .footer-logo {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
     color: var(--background);
+}
+
+@media screen and (min-width:768px) {
+    .footer-logo {
+        font-size: 20px;
+        letter-spacing: -0.02em;
+
+    }
 }
 
 .footer-social-list {
@@ -27,6 +63,14 @@
     gap: 10px;
 }
 
+@media screen and (min-width:768px) {
+    .footer-social-list {
+        margin-bottom: 86px;
+        margin-right: 336px;
+    }
+}
+
+
 
 .footer-social-list-svg {
     fill: var(--background);
@@ -35,6 +79,13 @@
     padding: 8px;
     width: 34px;
     height: 34px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-social-list-svg {
+        width: 36px;
+        height: 36px;
+    }
 }
 
 .footer-address {
@@ -48,7 +99,16 @@
     margin-bottom: 26px;
 }
 
+@media screen and (min-width:768px) {
+    .footer-address {
+        width: 160px;
+        height: 48px;
+    }
+}
+
+
 .footer-address-link {
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
@@ -57,6 +117,13 @@
     text-align: center;
     display: block;
 
+}
+
+@media screen and (min-width:768px) {
+    .footer-address-link {
+        font-size: 14px;
+        line-height: 1.29;
+    }
 }
 
 .footer-slogon {
@@ -68,12 +135,21 @@
     color: var(--background);
 }
 
+@media screen and (min-width:768px) {
+    .footer-slogon {
+        font-size: 28px;
+        line-height: 1.14;
+        width: 524px;
+    }
+}
+
 .footer-menu {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
 }
+
 
 .footer-menu-list {
     max-width: 147px;
@@ -82,6 +158,20 @@
     justify-content: flex-start;
     gap: 16px;
     margin-bottom: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-menu-list {
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 19px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer-menu-list {
+        gap: 40px;
+    }
 }
 
 .footer-menu-item {
@@ -98,12 +188,28 @@
     display: block;
 }
 
+@media screen and (min-width:768px) {
+    .footer-menu-link {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+}
+
 .footer-menu-address {
     font-weight: 500;
     font-size: 12px;
     line-height: 1.33;
     color: var(--background);
     width: 83px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-menu-address {
+        font-size: 14px;
+        line-height: 1.29;
+        width: 162px;
+        padding-bottom: 28px;
+    }
 }
 
 .footer-menu::after {
@@ -116,8 +222,28 @@
     left: 0;
 }
 
+@media screen and (min-width:768px) {
+    .footer-menu::after {
+        width: 624px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer-menu::after {
+        width: 1140px;
+    }
+}
+
 .footer-container-last {
     margin-top: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-container-last {
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .footer-container-last-text {
@@ -127,6 +253,13 @@
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
     margin-bottom: 8px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-container-last-text {
+        font-size: 14px;
+        line-height: 1.29;
+    }
 }
 
 .footer-container-last-list {
@@ -141,4 +274,11 @@
     letter-spacing: -0.02em;
     text-align: right;
     color: rgba(251, 251, 251, 0.5);
+}
+
+@media screen and (min-width:768px) {
+    .footer-container-last-item {
+        font-size: 14px;
+        line-height: 1.29;
+    }
 }
