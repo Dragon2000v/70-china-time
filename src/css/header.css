@@ -123,7 +123,6 @@
   
     .nav-link.current {
       position: relative;
-  
     }
   
     .nav-link.current::after {
@@ -133,9 +132,13 @@
       width: 8px;
       border-radius: 50%;
       background-color: rgba(51, 80, 233, 1);
-      top: 50px;
-      right: 15px;
+      
+      left: 50%;
+      bottom: 30px;
+      transform: translateX(-50%);
     }
+
+  
   
     .nav-item {
       text-align: center;
