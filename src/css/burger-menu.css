@@ -99,7 +99,7 @@
 }
 
 .menu-link {
-    color: #FBFBFB;
+    color: var(--background);
         text-align: center;
         font-family: var(--font-family);
         font-size: 14px;
