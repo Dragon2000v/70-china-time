@@ -1,9 +1,11 @@
 .footer {
     border-radius: 30px;
-    padding: 40px 28px 28px 28px;
+    padding: 48px 8px 28px 8px;
     background: #0c0c0c;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer-container {
@@ -74,7 +76,7 @@
 }
 
 .footer-menu-list {
-    width: 147px;
+    max-width: 147px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
