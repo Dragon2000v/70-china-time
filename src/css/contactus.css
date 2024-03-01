@@ -1,15 +1,15 @@
 /* Mobile styles */
 .contactus-section * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .contactus-section {
     padding: 30px 20px;
 }
 
-.contactus-container { 
-    margin: 30px auto 30px;
-    max-width: 335px;
+.contactus-container {
+  margin: 30px auto 30px;
+  max-width: 335px;
 }
 
 .contactus-header {
@@ -23,16 +23,16 @@
 }
 
 .contactus-block {
-    border-radius: 30px;
-    padding: 48px 28px;
-    background: var(--cards);
+  border-radius: 30px;
+  padding: 48px 28px;
+  background: var(--cards);
 }
 
 .contactus-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }
 
 .contactus-text {
@@ -47,10 +47,10 @@
 }
 
 .contactus-check {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    gap: 18px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 18px;
 }
 
 .contactus-field input {
@@ -100,8 +100,8 @@
 .contactus-field input:active,
 .contactus-texterea:focus,
 .contactus-texterea:hover {
-    border: 1px solid var(--accent);
-    outline: 0;
+  border: 1px solid var(--accent);
+  outline: 0;
 }
 
 .button-contactus {
@@ -121,14 +121,14 @@
     transition: [poperty] 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.button-contactus:hover, .button-contactus:focus {
-    background-color: var(--blue-hover);
+.button-contactus:hover,
+.button-contactus:focus {
+  background-color: var(--blue-hover);
 }
 
 .contactus-img {
-    max-width: 335px;
+  max-width: 335px;
 }
-
 
 /* Tab styles */
 @media screen and (min-width: 768px) {
@@ -139,9 +139,8 @@
     .contactus-container {
         max-width: 704px;
     }
-    
-    .contactus-block {
 
+    .contactus-block {
         padding: 50px 122px;
         border-radius: 50px;
     }
@@ -152,11 +151,6 @@
 
     .contactus-img {
         max-width: 704px;
-    }
-    
-    .button-contactus {
-        height: 52px;
-        margin: 14px 0 0;
     }
 
     .contactus-field input {
@@ -187,19 +181,13 @@
         padding: 50px 65px;
     }
 
-    .contactus-container { 
-        max-width: 1150px;
-    }
-    
-    .contactus-content {
-        flex-direction: row;
-    }
+  .contactus-container {
+    max-width: 1150px;
+  }
 
-    .contactus-block {
-        max-width: 600px;
-        height: 560px;
-        padding: 48px 60px;
-    }
+  .contactus-content {
+    flex-direction: row;
+  }
 
     .contactus-img {
         max-width: none;

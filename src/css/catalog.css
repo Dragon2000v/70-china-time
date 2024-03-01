@@ -39,7 +39,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 335px;
-  background: #f3f3f3;
+  background: var(--cards);
   padding: 41px 28px 23px;
 
   display: flex;
@@ -84,7 +84,7 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
+  color: var(--main);
 
   width: 250px;
   white-space: nowrap;
@@ -105,6 +105,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
+  margin-top: 8px;
 }
 
 .catalog-btn {
@@ -116,7 +117,7 @@
   height: 48px;
   border-radius: 16px;
 
-  background: #3350e9;
+  background: var(--accent);
 
   font-weight: 500;
   font-size: 14px;
@@ -134,5 +135,5 @@
 
 .catalog-btn:hover,
 .catalog-btn:focus {
-  background: #1f3cd4;
+  background: var(--blue-hover);
 }
