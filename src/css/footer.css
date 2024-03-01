@@ -27,16 +27,23 @@
 @media screen and (max-width:375px) {
     .footer .container {
         max-width: 335px;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 }
 
 @media screen and (min-width:768px) {
-    .footer .container {}
+    .footer .container {
+        padding-top: 40px;
+        width: 705px;
+
+    }
 }
 
 @media screen and (min-width:1280px) {
-    .footer .container {}
+    .footer .container {
+        width: 1216px;
+        padding-top: 50px;
+    }
 }
 
 .footer-container {
@@ -88,7 +95,7 @@
 .footer-social-list {
     display: flex;
     margin-top: 20px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     gap: 10px;
 }
 
