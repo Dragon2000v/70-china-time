@@ -1,11 +1,5 @@
 .footer {
-    border-radius: 30px;
-    padding: 48px 8px 28px 8px;
-    background: #0c0c0c;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 30px 0;
 }
 
 @media screen and (min-width:768px) {
@@ -19,6 +13,30 @@
     .footer {
         margin: 50px 75px 32px 75px;
     }
+}
+
+.footer .container {
+    background: #0c0c0c;
+    border-radius: 30px;
+    padding-top: 48px;
+    padding-bottom: 28px;
+    min-width: 280px;
+
+}
+
+@media screen and (max-width:375px) {
+    .footer .container {
+        max-width: 335px;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer .container {}
+}
+
+@media screen and (min-width:1280px) {
+    .footer .container {}
 }
 
 .footer-container {
@@ -37,9 +55,12 @@
 @media screen and (min-width:1280px) {
     .footer-container {
         margin-bottom: 126px;
-
+        flex-wrap: nowrap;
+        justify-content: space-between;
     }
 }
+
+
 
 .footer-logo {
     font-weight: 500;
@@ -56,6 +77,14 @@
     }
 }
 
+.footer-container-social {}
+
+@media screen and (min-width:1280px) {
+    .footer-container-social {
+        order: -2;
+    }
+}
+
 .footer-social-list {
     display: flex;
     margin-top: 20px;
@@ -67,6 +96,13 @@
     .footer-social-list {
         margin-bottom: 86px;
         margin-right: 336px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer-social-list {
+        margin-bottom: 0;
+        margin-right: 0;
     }
 }
 
@@ -106,6 +142,12 @@
     }
 }
 
+@media screen and (min-width:1280px) {
+    .footer-address {
+        order: 1;
+    }
+}
+
 
 .footer-address-link {
     font-family: var(--font-family);
@@ -116,6 +158,7 @@
     color: var(--background);
     text-align: center;
     display: block;
+    font-style: normal;
 
 }
 
@@ -133,6 +176,8 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: var(--background);
+    width: 280px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width:768px) {
@@ -140,6 +185,13 @@
         font-size: 28px;
         line-height: 1.14;
         width: 524px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer-slogon {
+        order: -1;
+
     }
 }
 
@@ -214,24 +266,12 @@
 
 .footer-menu::after {
     content: "";
-    width: 279px;
+    width: 100%;
     height: 2px;
     background: rgba(251, 251, 251, 0.1);
     position: absolute;
     bottom: -1px;
     left: 0;
-}
-
-@media screen and (min-width:768px) {
-    .footer-menu::after {
-        width: 624px;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .footer-menu::after {
-        width: 1140px;
-    }
 }
 
 .footer-container-last {
