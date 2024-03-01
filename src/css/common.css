@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Gilroy';
-  src: url(../fonts/Gilroy-Regular.ttf);
-}
-
 :root {
   --main: #0c0c0c;
   --accent: #3350e9;
@@ -13,8 +8,8 @@
   --font-family: 'Gilroy', sans-serif;
 }
 body {
-  font-family: 'Gilroy', sans-serif;
-  background: #fbfbfb;
+  font-family: var(--font-family);
+  background: var(--background);
 }
 img{
   display: block;
