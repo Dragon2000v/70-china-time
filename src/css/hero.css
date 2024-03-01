@@ -28,14 +28,9 @@ padding-bottom: 30px;
     .hero-container {
         display: flex;
         flex-direction: row;
-        gap: 11px;
         justify-content: space-between;
     }}
 
-    @media screen and (min-width: 1280px) {
-        .hero-container {
-            gap: 407px;
-        }}      
 
 .hero-title {
 font-weight: 600;
@@ -91,7 +86,7 @@ width: 480px;
 min-height: 44px;
 align-items: flex-end;
 justify-content: space-between;
-margin-top: 28px;
+ margin-top: 28px;
 }
 
 @media screen and (min-width: 768px) {
