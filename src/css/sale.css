@@ -54,6 +54,7 @@
   display: flex;
   width: 100%;
   flex-direction: row;
+  justify-content: space-between;
   gap: 5px;
   margin: 0;
   list-style: none;
@@ -69,19 +70,13 @@
 .sale-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  max-width: 80px;
-  max-height: 80px;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
   background: var(--cards);
-}
-@media only screen and (min-width: 375px) {
-  .sale-item {
-    min-width: 80px;
-    min-height: 80px;
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -98,11 +93,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
-<<<<<<< HEAD
   width: 100%;
-=======
-  max-width: 100%;
->>>>>>> 65b5cd6639afe429fb83dffb5938d5d617b472b4
 }
 @media screen and (min-width: 768px) {
   .foto-container {
