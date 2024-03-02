@@ -348,7 +348,8 @@
   transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 .sale-item:hover .sale-img,
-.sale-item:focus .sale-img {
+.sale-item:focus .sale-img,
+.sale-item:active .sale-img {
   transform: scale(1.1);
 }
 
@@ -357,6 +358,7 @@
 }
 
 .sale-main-img-block:hover .sale-main-img,
-.sale-main-img-block:focus .sale-main-img {
+.sale-main-img-block:focus .sale-main-img,
+.sale-main-img-block:active .sale-main-img {
   transform: rotateY(-180deg);
 }
