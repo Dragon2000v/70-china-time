@@ -54,7 +54,6 @@
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
   gap: 5px;
   margin: 0;
   list-style: none;
@@ -99,7 +98,11 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+<<<<<<< HEAD
   width: 100%;
+=======
+  max-width: 100%;
+>>>>>>> 65b5cd6639afe429fb83dffb5938d5d617b472b4
 }
 @media screen and (min-width: 768px) {
   .foto-container {
