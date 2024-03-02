@@ -59,6 +59,7 @@
   margin: 0;
   list-style: none;
 }
+
 @media screen and (min-width: 768px) {
   .sale-list {
     flex-direction: column;
