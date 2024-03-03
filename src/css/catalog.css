@@ -72,11 +72,13 @@
 }
 
 .description-thumb {
+  margin-top: 20px;
   margin-right: auto;
 }
 
 .picture {
   padding-top: 10px;
+  /* margin: 0 auto; */
 }
 
 .third-lvl-title {
