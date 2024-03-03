@@ -188,14 +188,18 @@
         padding: 50px 65px;
     }
 
-  .contactus-container {
-    max-width: 1150px;
-  }
+    .contactus-container {
+        max-width: 1150px;
+    }
 
-  .contactus-content {
-    flex-direction: row;
-    height: 556px;
-  }
+    .contactus-block {
+        padding: 50px 60px;
+        height: 556px;
+    }
+
+    .contactus-content {
+        flex-direction: row;
+    }
 
     .contactus-img {
         max-width: none;
