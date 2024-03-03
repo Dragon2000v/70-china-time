@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/70-china-time/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/70-china-time/assets/index-8c35c691.css">
+    <link rel="stylesheet" href="/70-china-time/assets/index-41b28876.css">
   </head>
 
   <body>
@@ -599,6 +599,7 @@
               id="name"
               name="name"
               pattern="[\sa-zA-Z]+"
+              required
             />
           </div>
           <div class="contactus-field">
@@ -607,7 +608,8 @@
               placeholder="Email"
               id="email"
               name="email"
-              pattern="[a-z0-9.%+-]+@[a-z0-9.%+-]+\.[a-z]{2,}$"
+              pattern="[a-z0-9.%+-]+@[a-z0-9.%+-]+\.[a-z]{2,}$" 
+              required
             />
           </div>
           <div class="contactus-field">
@@ -623,8 +625,8 @@
             <textarea
               class="contactus-texterea"
               placeholder="Comment"
-              type="submit"
               name="comment"
+              minlength="10"
             ></textarea>
           </div>
           <div class="contactus-field">
