@@ -38,7 +38,7 @@
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  width: 100%;
   background: var(--cards);
   padding: 41px 28px 23px;
 
@@ -72,11 +72,13 @@
 }
 
 .description-thumb {
+  margin-top: 20px;
   margin-right: auto;
 }
 
 .picture {
   padding-top: 10px;
+  /* margin: 0 auto; */
 }
 
 .third-lvl-title {
