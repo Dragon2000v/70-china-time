@@ -362,3 +362,13 @@
 .sale-main-img-block:active .sale-main-img {
   transform: rotateY(-180deg);
 }
+#sale,
+#about,
+#reviews,
+#catalog {
+  padding-top: 120px; /* Зміщення вгору */
+}
+
+#contact {
+  padding-top: 90px; /* Зміщення вгору */
+}
